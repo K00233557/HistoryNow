@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head> 
+    <title>History Now - Sign-Up/Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style1.css" rel="stylesheet" type="text/css" />
+     <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<div class="grid-containerSignLog">
+			 
+    <div class="header">
+        <a href="index.html"><img id="logo" src="img/Logo.png" alt="History Now"></a>
+        <h1 id="title">History Now</h1>
+        <p id="tagLine"><em>Get the latest historcial articles, NOW!</em></p>	
+     
+	</div>
+	
+    <div class="nav">
+			<ul id="navTop">
+                <li class ="others"><a href="index.html" >Home</a></li>
+                <li class ="others"><a href="timeline.html">Timeline</a></li>
+                <li class ="others"><a href="figures.html">Figures</a></li>
+                <li class ="others"><a href="archive.html">Archive</a></li>
+                <li class ="others"><a href="discussion.html">Discussion</a></li>
+				<li id="search"><input type="text" name="search" placeholder="Search.."></li>
+            </ul>
+    </div>
+    <div class='signUp'>
+        <h2 class="upin">Sign Up</h2>
+
+                <form method="post">
+                        
+                        <p><label for="firstName">First Name: </label>
+                            <input type="text" name="firstName" size="23" id="firstName" ></p>
+                        <p><label for ="secondName">Second Name: </label>
+                            <input type="text" name="secondName" size="23" id="secondName" ></p>
+                        <p><label for="email1">Email:</label>
+                            <input type="email" name="email" size="23" id="email1" ></p>
+                        <p><label for ="createPass">Create Password: </label>
+                            <input type="text" name="createPass" size="23" id="createPass" ></p>
+                        <p><label for ="confirmPass">Confirm Password: </label>
+                            <input type="text" name="confirmPass" size="23" id="confirmPass" ></p>
+                    <button><a href="profile.html" >Submit</a></button>
+<!--For demonstration purposes I have used a button and a href to an example profile page, in developing the site with the backend would use php and <input type="submit" id="button"> -->
+                </form>
+    </div>
+    
+    <div class='logIn'>
+            <h2 class="upin">Login</h2>
+
+                <form method="post">
+                        
+                        <p><label for="email2">Email:</label>
+                            <input type="email" name="email" size="23" id="email2" ></p>
+                        <p><label for ="pass">Password: </label>
+                            <input type="text" name="pass" size="23" id="pass" ></p>
+                   <button><a href="profile.html" >Submit</a></button>
+<!--For demonstration purposes I have used a button and a href to an example profile page, in developing the site with the backend would use php and <input type="submit" id="button"> -->
+                </form>
+    </div>
+	
+    <div class="footer">
+					<ul id="navBottom">
+                        <li class ="others"><a href="contact.html">Contact Us</a></li>
+					</ul>
+					<p id="copy">&copy; Elizabeth Hyland</p>
+	</div>
+</div>
+</body>
+</html>
